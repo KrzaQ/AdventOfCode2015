@@ -20,9 +20,7 @@ end
 
 ThisYear = simPath(T)
 
-NextYearSantasPath, NextYearRoboSantasPath = T.each_char.each_with_index.map{ |c,i|
-	[c,i]
-}.group_by{ |c, i|
+NextYearSantasPath, NextYearRoboSantasPath = T.each_char.each_with_index.group_by{ |c, i|
 	i % 2
 }.map{|unused, arr|
 	arr.map{ |c, i| c}.join
