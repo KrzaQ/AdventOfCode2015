@@ -15,7 +15,9 @@ the error messages.
 
 ## Provide environment variables
 `SPL` -- should point to `spl2c`
+
 `SPL_INCLUDE` -- should point to the directory containing `spl.h`
+
 `SPL_LIB` -- should point to the directory containing `libspl.a`
 
 ## make
