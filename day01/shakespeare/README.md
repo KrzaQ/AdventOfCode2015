@@ -1,6 +1,11 @@
 # Advent of Code, Day 1 Shakespeare Programming Language solution
 ===
 
+# The Shakespeare Programming Language (SPL)
+[Wiki](https://en.wikipedia.org/wiki/Shakespeare_Programming_Language)
+
+[Official page](http://shakespearelang.sourceforge.net/report/shakespeare/)
+
 # Instruction
 
 Just getting it to work is a non-trivial task, because the original SPL source
