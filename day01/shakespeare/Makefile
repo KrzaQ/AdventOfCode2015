@@ -6,9 +6,9 @@ CC = gcc
 
 all: run
 
-run: binary data.txt
-	echo `./day01_01_spl < data.txt`
-	echo `./day01_02_spl < data.txt`
+run: binary ../data.txt
+	echo `./day01_01_spl < ../data.txt`
+	echo `./day01_02_spl < ../data.txt`
 
 binary: day01_01_spl.c day01_02_spl.c
 	$(CC) day01_01_spl.c $(CFLAGS) -L $(SPL_LIB) -lm -lspl -I $(SPL_INCLUDE) -o day01_01_spl
