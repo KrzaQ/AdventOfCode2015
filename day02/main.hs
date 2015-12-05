@@ -5,16 +5,13 @@ import Data.List.Split;
 
 processLine l = sort (map (read) (splitOn "x" l) :: [Integer])
 
-processData d = map (processLine) (splitOn "\n" d) 
+processData d = map processLine (lines d) 
 
-task1Core arr = 3*arr!!0*arr!!1 + 2*arr!!0*arr!!2 + 2*arr!!1*arr!!2
+task1Core arr = 3 * a * b + 2 * a * c + 2 * b * c where [a,b,c] = arr
 
-task2Core arr = arr!!0 * arr!!1 * arr!!2 + 2*arr!!0 + 2*arr!!1
+task2Core arr = a * b * c + 2 * a + 2 * b where [a,b,c] = arr
 
 main = do
     contents <- readFile "data.txt"
     print $ sum (map task1Core (processData contents))
     print $ sum (map task2Core (processData contents))
-    
-
-
