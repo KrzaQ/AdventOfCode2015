@@ -15,4 +15,4 @@ I'm using various languages to provide solutions.
 [day2]: http://adventofcode.com/day/2
 [day3]: http://adventofcode.com/day/3
 [day4]: http://adventofcode.com/day/4
-[day4]: http://adventofcode.com/day/5
+[day5]: http://adventofcode.com/day/5
