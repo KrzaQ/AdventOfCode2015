@@ -10,9 +10,11 @@ I'm using various languages to provide solutions.
 | 03  | [Perfectly Spherical Houses in a Vacuum][day3] ||||[:heavy_check_mark:](./day03/main.rb)||
 | 04  | [The Ideal Stocking Stuffer][day4]             |[:heavy_check_mark:](./day04/main.d)||[:heavy_check_mark:](./day04/main.py)|[:heavy_check_mark:](./day04/main.rb)||
 | 05  | [Doesn't He Have Intern-Elves For This?][day5] |[:heavy_check_mark:](./day05/main.d)|||[:heavy_check_mark:](./day05/main.rb)||
+| 06  | [Probably a Fire Hazard][day6]                 ||||[:heavy_check_mark:](./day06/main.rb)||
 
 [day1]: http://adventofcode.com/day/1
 [day2]: http://adventofcode.com/day/2
 [day3]: http://adventofcode.com/day/3
 [day4]: http://adventofcode.com/day/4
 [day5]: http://adventofcode.com/day/5
+[day6]: http://adventofcode.com/day/6
