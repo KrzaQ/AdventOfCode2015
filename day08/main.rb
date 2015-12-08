@@ -1,6 +1,4 @@
 D = File.read('data.txt').split("\n")
-
-
 T = { '"' => '\\"', '\\' => '\\\\'}
 
 puts 'Task 1: %s' % D.map{|l| l.size - eval(l).size}.inject(:+)
