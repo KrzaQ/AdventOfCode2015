@@ -18,14 +18,18 @@ D.each do |var|
 	p var
 	case var[:text]
 	when /(NOT) ([\w\d]+)/
-		g.add_nodes(var[:line], label: "#{var[:line]}\n#{$1}")
+		g.add_nodes(var[:line], label: "#{var[:line]}\n#{var[:text]}")
 		g.add_edges(var[:line], $2)
+		# p ['->', $2]
 	when /([\w\d]+) (RSHIFT|LSHIFT|AND|OR) ([\w\d]+)/
-		g.add_nodes(var[:line], label: "#{var[:line]}\n#{$2}")
-		g.add_edges(var[:line], $1)
-		g.add_edges(var[:line], $3)
-	else
-		g.add_edges(var[:line], var[:text])
+		l, r = $1, $3
+		# p [l,r]
+		g.add_nodes(var[:line], label: "#{var[:line]}\n#{var[:text]}")
+		g.add_edges(var[:line], l) unless /\d+/ =~ l
+		g.add_edges(var[:line], r) unless /\d+/ =~ r
+	when /\w+/
+		g.add_edges(var[:line], var[:text]) unless /\d+/ =~ var[:text]
+		g.add_nodes(var[:line], label: "#{var[:line]}\n#{var[:text]}")
 	end
 end
 
