@@ -17,12 +17,15 @@ class Calc
 	}
 
 	ushort[string] cache;
-	IOp[string] lines;
+	Op[string] lines;
 }
 
-interface IOp
+struct Op
 {
-	ushort eval(Calc);
+	this(ushort function(ushort[]) func, string[] i){
+		inputs = i;
+		this.func = func;
+	}
 
 	final ushort get(string name, Calc c){
 		static rx = ctRegex!`\d+`;
@@ -31,19 +34,13 @@ interface IOp
 		}
 		return c.eval(name);
 	}
-}
-
-class Op(alias T) : IOp
-{
-	this(string[] i){
-		inputs = i;
-	}
 
 	ushort eval(Calc c){
-		return T(inputs.map!(s => get(s, c)).array).to!ushort;
+		return func(inputs.map!(s => get(s, c)).array);
 	}
-	
+
 	string[] inputs;
+	ushort function(ushort[]) func; 
 }
 
 void main() {
@@ -57,19 +54,22 @@ void main() {
 
 		m = text.match(ctRegex!`([\d\w]+) (RSHIFT|LSHIFT|AND|OR) ([\w\d]+)`);
 		if(m){
-			switch(m.captures[2]){
-				case `RSHIFT`: c.lines[line] = new Op!(r => r[0] >> r[1])([m.captures[1], m.captures[3]]); break;
-				case `LSHIFT`: c.lines[line] = new Op!(r => r[0] << r[1])([m.captures[1], m.captures[3]]); break;
-				case `AND`: c.lines[line] = new Op!(r => r[0] & r[1])([m.captures[1], m.captures[3]]); break;
-				case `OR`: c.lines[line] = new Op!(r => r[0] | r[1])([m.captures[1], m.captures[3]]); break;
-				default: assert(0);
-			}
+			auto arr = [m.captures[1], m.captures[3]];
+
+			c.lines[line] = Op(m.captures[2].predSwitch(
+				`RSHIFT`, function ushort(ushort[] r){ return r[0] >> r[1]; },
+				`LSHIFT`, function ushort(ushort[] r){ return cast(ushort)(r[0] << r[1]); },
+				`AND`, function ushort(ushort[] r){ return r[0] & r[1]; },
+				`OR`, function ushort(ushort[] r){ return r[0] | r[1]; }),
+				arr
+			);
+
 		}else{
 			m = text.match(ctRegex!`NOT (\w+)`);
 			if(m){
-				c.lines[line] = new Op!(r => ~r[0])([m.captures[1]]);
+				c.lines[line] = Op(function ushort(ushort[] r){ return ~r[0]; }, [m.captures[1]]);
 			}else{
-				c.lines[line] = new Op!(r => r[0])([text]);
+				c.lines[line] = Op(function ushort(ushort[] r){ return r[0]; }, [text]);
 			}
 		}
 	}
