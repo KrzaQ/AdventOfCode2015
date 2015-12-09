@@ -8,4 +8,4 @@ PossibleRoutes = Cities.permutation.map{ |path|
 }.reject{|d,p| d == Float::INFINITY}
 
 puts 'Task 1: %s' % PossibleRoutes.map{|d,p| d}.min
-puts 'Task 2: %s' / PossibleRoutes.map{|d,p| d}.max
+puts 'Task 2: %s' % PossibleRoutes.map{|d,p| d}.max
