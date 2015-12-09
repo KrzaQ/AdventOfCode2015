@@ -12,7 +12,8 @@ I'm using various languages to provide solutions.
 | 05  | [Doesn't He Have Intern-Elves For This?][day5] |[:heavy_check_mark:](./day05/main.d)|||[:heavy_check_mark:](./day05/main.rb)||
 | 06  | [Probably a Fire Hazard][day6]                 ||||[:heavy_check_mark:](./day06/main.rb)||
 | 07  | [Some Assembly Required][day7]                 |[:heavy_check_mark:](./day07/main.d)|||[:heavy_check_mark:](./day07/main.rb)||
-| 08  | [Matchsticks][day7]                 ||||[:heavy_check_mark:](./day08/main.rb)||
+| 08  | [Matchsticks][day8]                            ||||[:heavy_check_mark:](./day08/main.rb)||
+| 08  | [All in a Single Night][day9]                  ||||[:heavy_check_mark:](./day09/main.rb)||
 
 [day1]: http://adventofcode.com/day/1
 [day2]: http://adventofcode.com/day/2
@@ -22,3 +23,4 @@ I'm using various languages to provide solutions.
 [day6]: http://adventofcode.com/day/6
 [day7]: http://adventofcode.com/day/7
 [day8]: http://adventofcode.com/day/8
+[day9]: http://adventofcode.com/day/9
