@@ -13,7 +13,7 @@ I'm using various languages to provide solutions.
 | 06  | [Probably a Fire Hazard][day6]                 ||||[:heavy_check_mark:](./day06/main.rb)||
 | 07  | [Some Assembly Required][day7]                 |[:heavy_check_mark:](./day07/main.d)|||[:heavy_check_mark:](./day07/main.rb)||
 | 08  | [Matchsticks][day8]                            ||||[:heavy_check_mark:](./day08/main.rb)||
-| 08  | [All in a Single Night][day9]                  ||||[:heavy_check_mark:](./day09/main.rb)||
+| 09  | [All in a Single Night][day9]                  ||||[:heavy_check_mark:](./day09/main.rb)||
 
 [day1]: http://adventofcode.com/day/1
 [day2]: http://adventofcode.com/day/2
