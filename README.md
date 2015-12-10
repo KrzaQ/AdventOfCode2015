@@ -14,6 +14,7 @@ I'm using various languages to provide solutions.
 | 07  | [Some Assembly Required][day7]                 |[:heavy_check_mark:](./day07/main.d)|||[:heavy_check_mark:](./day07/main.rb)||
 | 08  | [Matchsticks][day8]                            ||||[:heavy_check_mark:](./day08/main.rb)||
 | 09  | [All in a Single Night][day9]                  ||||[:heavy_check_mark:](./day09/main.rb)||
+| 10  | [Elves Look, Elves Say][day10]                  ||||[:heavy_check_mark:](./day10/main.rb)||
 
 [day1]: http://adventofcode.com/day/1
 [day2]: http://adventofcode.com/day/2
@@ -24,3 +25,4 @@ I'm using various languages to provide solutions.
 [day7]: http://adventofcode.com/day/7
 [day8]: http://adventofcode.com/day/8
 [day9]: http://adventofcode.com/day/9
+[day10]: http://adventofcode.com/day/10
