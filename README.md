@@ -15,6 +15,7 @@ I'm using various languages to provide solutions.
 | 08  | [Matchsticks][day8]                            ||||[:heavy_check_mark:](./day08/main.rb)||
 | 09  | [All in a Single Night][day9]                  ||||[:heavy_check_mark:](./day09/main.rb)||
 | 10  | [Elves Look, Elves Say][day10]                  ||||[:heavy_check_mark:](./day10/main.rb)||
+| 11  | [Corporate Policy][day10]                  ||||[:heavy_check_mark:](./day11/main.rb)||
 
 [day1]: http://adventofcode.com/day/1
 [day2]: http://adventofcode.com/day/2
@@ -26,3 +27,4 @@ I'm using various languages to provide solutions.
 [day8]: http://adventofcode.com/day/8
 [day9]: http://adventofcode.com/day/9
 [day10]: http://adventofcode.com/day/10
+[day11]: http://adventofcode.com/day/11
