@@ -5,9 +5,9 @@ def red_is_bad(input)
 	case input
 	when Hash
 		return {} if input.any?{|k,v| v == 'red'}
-		input.map{|k,v| [k, parse(v)]}.to_h
+		input.map{|k,v| [k, red_is_bad(v)]}.to_h
 	when Array
-		input.map{|v| parse(v)}
+		input.map{|v| red_is_bad(v)}
 	else
 		input
 	end
