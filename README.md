@@ -17,6 +17,7 @@ I'm using various languages to provide solutions.
 | 10  | [Elves Look, Elves Say][day10]                  ||||[:heavy_check_mark:](./day10/main.rb)||
 | 11  | [Corporate Policy][day11]                  ||||[:heavy_check_mark:](./day11/main.rb)||
 | 12  | [JSAbacusFramework.io][day12]                  ||||[:heavy_check_mark:](./day12/main.rb)||
+| 13  | [Knights of the Dinner Table][day13]                  ||||[:heavy_check_mark:](./day13/main.rb)||
 
 [day1]: http://adventofcode.com/day/1
 [day2]: http://adventofcode.com/day/2
@@ -30,3 +31,4 @@ I'm using various languages to provide solutions.
 [day10]: http://adventofcode.com/day/10
 [day11]: http://adventofcode.com/day/11
 [day12]: http://adventofcode.com/day/12
+[day13]: http://adventofcode.com/day/13
