@@ -20,9 +20,3 @@ end
 
 puts 'Task 1: %s' % getBestHappiness(D.keys)
 puts 'Task 2: %s' % getBestHappiness(D.keys + ['self'])
-
-# p D.keys.permutation.map{ |arr|
-# 	arr.push arr.first
-# 	arr.each_cons(2).map{ |l, r| D[l][r] + D[r][l] }.inject(:+)
-# }.max
-
