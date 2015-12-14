@@ -14,10 +14,11 @@ I'm using various languages to provide solutions.
 | 07  | [Some Assembly Required][day7]                 |[:heavy_check_mark:](./day07/main.d)|||[:heavy_check_mark:](./day07/main.rb)||
 | 08  | [Matchsticks][day8]                            ||||[:heavy_check_mark:](./day08/main.rb)||
 | 09  | [All in a Single Night][day9]                  ||||[:heavy_check_mark:](./day09/main.rb)||
-| 10  | [Elves Look, Elves Say][day10]                  ||||[:heavy_check_mark:](./day10/main.rb)||
-| 11  | [Corporate Policy][day11]                  ||||[:heavy_check_mark:](./day11/main.rb)||
+| 10  | [Elves Look, Elves Say][day10]                 ||||[:heavy_check_mark:](./day10/main.rb)||
+| 11  | [Corporate Policy][day11]                      ||||[:heavy_check_mark:](./day11/main.rb)||
 | 12  | [JSAbacusFramework.io][day12]                  ||||[:heavy_check_mark:](./day12/main.rb)||
-| 13  | [Knights of the Dinner Table][day13]                  ||||[:heavy_check_mark:](./day13/main.rb)||
+| 13  | [Knights of the Dinner Table][day13]           ||||[:heavy_check_mark:](./day13/main.rb)||
+| 14  | [Reindeer Olympics][day14]                     ||||[:heavy_check_mark:](./day14/main.rb)||
 
 [day1]: http://adventofcode.com/day/1
 [day2]: http://adventofcode.com/day/2
@@ -32,3 +33,4 @@ I'm using various languages to provide solutions.
 [day11]: http://adventofcode.com/day/11
 [day12]: http://adventofcode.com/day/12
 [day13]: http://adventofcode.com/day/13
+[day14]: http://adventofcode.com/day/14
