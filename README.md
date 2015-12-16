@@ -20,6 +20,7 @@ I'm using various languages to provide solutions.
 | 13  | [Knights of the Dinner Table][day13]           ||||[:heavy_check_mark:](./day13/main.rb)||
 | 14  | [Reindeer Olympics][day14]                     ||||[:heavy_check_mark:](./day14/main.rb)||
 | 15  | [Science for Hungry People][day15]             ||||[:heavy_check_mark:](./day15/main.rb)||
+| 16  | [Aunt Sue][day16]                              ||||[:heavy_check_mark:](./day16/main.rb)||
 
 [day1]: http://adventofcode.com/day/1
 [day2]: http://adventofcode.com/day/2
@@ -36,3 +37,4 @@ I'm using various languages to provide solutions.
 [day13]: http://adventofcode.com/day/13
 [day14]: http://adventofcode.com/day/14
 [day15]: http://adventofcode.com/day/15
+[day16]: http://adventofcode.com/day/16
