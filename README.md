@@ -22,6 +22,7 @@ I'm using various languages to provide solutions.
 | 15  | [Science for Hungry People][day15]             ||||[:heavy_check_mark:](./day15/main.rb)||
 | 16  | [Aunt Sue][day16]                              ||||[:heavy_check_mark:](./day16/main.rb)||
 | 17  | [No Such Thing as Too Much][day17]             ||||[:heavy_check_mark:](./day17/main.rb)||
+| 18  | [Like a GIF For Your Yard][day18]              ||||[:heavy_check_mark:](./day18/main.rb)||
 
 [day1]: http://adventofcode.com/day/1
 [day2]: http://adventofcode.com/day/2
@@ -40,3 +41,4 @@ I'm using various languages to provide solutions.
 [day15]: http://adventofcode.com/day/15
 [day16]: http://adventofcode.com/day/16
 [day17]: http://adventofcode.com/day/17
+[day18]: http://adventofcode.com/day/18
