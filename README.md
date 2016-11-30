@@ -1,4 +1,4 @@
-[Advent of Code](http://adventofcode.com) solutions by KrzaQ
+[Advent of Code 2015](http://adventofcode.com/2015) solutions by [KrzaQ][kq]
 ========================
 
 I'm using various languages to provide solutions.
@@ -24,21 +24,23 @@ I'm using various languages to provide solutions.
 | 17  | [No Such Thing as Too Much][day17]             ||||[:heavy_check_mark:](./day17/main.rb)||
 | 18  | [Like a GIF For Your Yard][day18]              ||||[:heavy_check_mark:](./day18/main.rb)||
 
-[day1]: http://adventofcode.com/day/1
-[day2]: http://adventofcode.com/day/2
-[day3]: http://adventofcode.com/day/3
-[day4]: http://adventofcode.com/day/4
-[day5]: http://adventofcode.com/day/5
-[day6]: http://adventofcode.com/day/6
-[day7]: http://adventofcode.com/day/7
-[day8]: http://adventofcode.com/day/8
-[day9]: http://adventofcode.com/day/9
-[day10]: http://adventofcode.com/day/10
-[day11]: http://adventofcode.com/day/11
-[day12]: http://adventofcode.com/day/12
-[day13]: http://adventofcode.com/day/13
-[day14]: http://adventofcode.com/day/14
-[day15]: http://adventofcode.com/day/15
-[day16]: http://adventofcode.com/day/16
-[day17]: http://adventofcode.com/day/17
-[day18]: http://adventofcode.com/day/18
+[day1]: http://adventofcode.com/2015/day/1
+[day2]: http://adventofcode.com/2015/day/2
+[day3]: http://adventofcode.com/2015/day/3
+[day4]: http://adventofcode.com/2015/day/4
+[day5]: http://adventofcode.com/2015/day/5
+[day6]: http://adventofcode.com/2015/day/6
+[day7]: http://adventofcode.com/2015/day/7
+[day8]: http://adventofcode.com/2015/day/8
+[day9]: http://adventofcode.com/2015/day/9
+[day10]: http://adventofcode.com/2015/day/10
+[day11]: http://adventofcode.com/2015/day/11
+[day12]: http://adventofcode.com/2015/day/12
+[day13]: http://adventofcode.com/2015/day/13
+[day14]: http://adventofcode.com/2015/day/14
+[day15]: http://adventofcode.com/2015/day/15
+[day16]: http://adventofcode.com/2015/day/16
+[day17]: http://adventofcode.com/2015/day/17
+[day18]: http://adventofcode.com/2015/day/18
+
+[kq]: https://dev.krzaq.cc
